@@ -1,0 +1,6 @@
+{% extends "personal/header.html" %}
+
+{% block content %}
+<p>Welcome to my site!</p>
+<a href=http://localhost/csv_upload/>upload csv file</a>
+{% endblock %}
