@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head lang="ja">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+{% block body %}
+    <form action="" method="get">
+        <label>NAMENAME:<input type="text" size="30" name="your_name"></label>
+        <input type="submit" value="SSS">
+    </form>
+    {% if your_name %}
+        {{ your_name }}HELLOHELLO
+    {% endif %}
+{% endblock %}
+</html>
